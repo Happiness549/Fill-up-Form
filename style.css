@@ -15,7 +15,17 @@ header > h3{
     font-family: norse;
     color: white;
 }
+fieldset > p{
+    font-weight: bold;
+}
 
+.first-p {
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
 .right{
     width: 50%;
     display: flex;
@@ -31,6 +41,6 @@ header > h3{
 
 fieldset{
     background-color:hsl(0, 0%, 90%) ;
-    width: 1000px;
+    width: 800px;
     height: 300px;
 }
